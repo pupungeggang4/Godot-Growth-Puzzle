@@ -275,3 +275,4 @@ animations = [{
 sprite_frames = SubResource("SpriteFrames_gjjhe")
 animation = &"idle_down"
 autoplay = "idle_down"
+centered = false

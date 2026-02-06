@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://cir6kuhigxof7"]
+
+[ext_resource type="Texture2D" uid="uid://bbjgimhitpwl4" path="res://asset/sprite/sprite_entity.png" id="1_qim0o"]
+
+[node name="Water" type="Node2D" unique_id=2129500922]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1273354353]
+texture = ExtResource("1_qim0o")
+centered = false
+region_enabled = true
+region_rect = Rect2(40, 0, 40, 40)

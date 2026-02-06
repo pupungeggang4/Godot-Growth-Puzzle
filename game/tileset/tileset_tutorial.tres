@@ -1,0 +1,14 @@
+[gd_resource type="TileSet" format=3 uid="uid://cwaidbiqmxb78"]
+
+[ext_resource type="Texture2D" uid="uid://2h0hnv1iuhxe" path="res://asset/sprite/sprite_floor.png" id="1_ukg3i"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ia8s4"]
+texture = ExtResource("1_ukg3i")
+texture_region_size = Vector2i(40, 40)
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+
+[resource]
+tile_size = Vector2i(40, 40)
+sources/0 = SubResource("TileSetAtlasSource_ia8s4")
